@@ -1,5 +1,8 @@
 ### My CV
-![image](.\rsschool-cv\img1.jpg "goodfon.ru")
+![image](./rsschool-cv/img1.jpg "goodfon.ru")
+![image2](/rsschool-cv/img1.jpg "goodfon.ru")
+![image3](/img1.jpg "goodfon.ru")
+![image4](img1.jpg "goodfon.ru")
 ### First Name, Last Name: *Ihar Navoichyk*
 1. Contact Info:\
 Phone Number: +375291812363\

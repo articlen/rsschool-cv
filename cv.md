@@ -1,8 +1,10 @@
 #### Summary
 ![image4](img1920-216.jpg "goodfon.ru")
 #### First Name, Last Name: *Ihar Navoichyk*
-1. Contact Info:\
-Phone Number: +375291812363\
+1. Contact Info:
+***
+Phone Number: +375291812363
+***
 E-mail: igor9os4a@gmail.com\
 GitHub: [articlen](https://github.com/articlen/rsschool-cv.git)\
 Markdown: [CV](https://articlen.github.io/rsschool-cv/cv)
@@ -17,8 +19,7 @@ Graduated from:
 ----
 5. Code examples:\
 CSS 
-
-'''
+```
 <style>
   .border{
     border: 1px solid #dee542;
@@ -28,10 +29,8 @@ CSS
   }
   </style>
   <p class="border" id="no-border">оторый имеет «вес» 1000, а это значит</p>
-'''
 
 HTML
-'''
 <header>
   <img src="/logo.png" alt="Логотип"> <!-- Логотип сайта -->
   <div id="menu">
@@ -43,12 +42,12 @@ HTML
     </ul>
   </div>
 </header>
-'''
-
+```
+----
 6. language:
-My English level is A1\
-My Polish level A1\
-I speak Belarusian\
+My English level is A1***
+My Polish level A1***
+I speak Belarusian
+***
 I speak Russia
-![rss](rss.svg "rss.svg")
-![image5](rss.png "rss")
+![image5](rss368-137.png "rss")

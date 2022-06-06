@@ -17,9 +17,10 @@ Graduated from:
 * Minsk Automobile College, specialty - mechanical technician.
 * BSUIR with a degree in Information Technology and Management Engineer.
 ----
-5. Code examples:\
-CSS 
+5. Code examples:
+***
 ```
+CSS 
 <style>
   .border{
     border: 1px solid #dee542;
@@ -45,9 +46,14 @@ HTML
 ```
 ----
 6. language:
-My English level is A1***
-My Polish level A1***
+My English level is A1
+***
+My Polish level A1
+***
 I speak Belarusian
 ***
 I speak Russia
+***
+
+
 ![image5](rss368-137.png "rss")

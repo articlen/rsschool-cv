@@ -1,2 +1,6 @@
-/* настрока шрифтов */
-
+@font-face {
+    font-family: Dancing_Script;
+    src: url();
+}
+font-family: 'Dancing Script', cursive;
+font-family: 'Prompt', sans-serif;

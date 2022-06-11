@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV3</title>
+    <title>CV</title>
     <link rel="shortcut icon" href="assets/img/favicon3.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
+            <nav class="nav collapsed">
+                <ul class="nav-list collapsed">
                     <li class="nav-item">
                         <a href="#contacts" class="nav-link">Contacts</a></li>
                     <li class="nav-item">
@@ -31,15 +32,19 @@
                         <a href="#language" class="nav-link">Language</a></li>
                 </ul>
             </nav>
+            <!-- Задает линии при меньшим разрешении -->
+            <div class="toggle collapsed">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </div>
-
-    </header>
-   
+    </header>   
 
     <main class="main">
         <div class="main-container">
             <section class="section section-profile">
-                <img src="assets/img/1551512926_36.jpg" alt="Could have been my photo" class="section-profile-logo" width="200">
+                <img src="assets/img/1551512926_36.jpg" alt="Could have been my photo" title="Could have been my photo" class="section-profile-logo" width="200">
                 <div class="section-profile-title">
                     <h1 class="section-title main-title">Ihar Navoichyk</h1>
                 </div>
@@ -84,13 +89,12 @@
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
-                <pre>
-                    <code>function greet() {
-                        return("hello world!");
-                      };                     
-                    </code>  
+                <pre class="pre">
+                    <code>
+function greet() {
+return("hello world!");
+};</code>  
                 </pre>
-
             </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
@@ -157,7 +161,14 @@
     </main>
 
     <footer class="footer">
-
+        <div class="container footer-container">
+            <div >
+                <a class="github nav-link" href="https://github.com/articlen" title="Github">ARTICLEN</a>
+            </div>
+            <h1>2022</h1>
+            
+            <a class="rss" href="https://rs.school/" title="RSSCHOOL"></a>
+        </div>
     </footer>
-   
+   <!-- <script src="index.js"></script> -->
 </body>
